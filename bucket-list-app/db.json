@@ -1,0 +1,249 @@
+
+{
+    "destinations": [
+      {
+        "id": 1,
+        "name": "Paris",
+        "image": "https://www.en-vols.com/wp-content/uploads/afmm/2022/10/shutterstock_1829492048.jpg",
+        "description": "The city of love and lights."
+      },
+      {
+        "id": 2,
+        "name": "Tokyo",
+        "image": "https://source.unsplash.com/featured/?tokyo",
+        "description": "A bustling metropolis with rich culture."
+      },
+      {
+        "id": 3,
+        "name": "New York City",
+        "image": "https://source.unsplash.com/featured/?newyork",
+        "description": "The city that never sleeps."
+      },
+      {
+        "id": 4,
+        "name": "Kerry, Ireland",
+        "image": "https://imageio.forbes.com/specials-images/dam/imageserve/1166259909/960x0.jpg?format=jpg&width=960",
+        "description": "Kerry's mountains, lakes, and coasts are postcard-perfect."
+      },
+      {
+        "id": 5,
+        "name": "Beijing",
+        "image": "https://www.planetware.com/wpimages/2022/02/top-cities-world-to-visit-beijing-china-forbidden-palace.jpg",
+        "description": "A blend of ancient history and modern marvels."
+      },
+      {
+        "id": 6,
+        "name": "Orlando",
+        "image": "https://www.en-vols.com/wp-content/uploads/afmm/2022/11/shutterstock_602839745.jpg",
+        "description": "A magical destination for all ages."
+      },
+      {
+        "id": 7,
+        "name": "Shanghai",
+        "image": "https://www.en-vols.com/wp-content/uploads/afmm/2022/11/shutterstock_260244476.jpg",
+        "description": "A vibrant city at the forefront of China's growth."
+      },
+      {
+        "id": 8,
+        "name": "Las Vegas",
+        "image": "https://www.en-vols.com/wp-content/uploads/afmm/2022/02/shutterstock_editorial_1456957640.jpg",
+        "description": "The entertainment capital of the world."
+      },
+      {
+        "id": 9,
+        "name": "London",
+        "image": "https://www.planetware.com/wpimages/2020/03/world-most-visited-cities-london-england.jpg",
+        "description": "The city that never sleeps."
+      },
+      {
+        "id": 10,
+        "name": "Brazil",
+        "image": "https://i.insider.com/5d3776e836e03c01ae25c453?width=700&format=jpeg&auto=webp",
+        "description": "known for its diverse culture, beautiful landscapes, and vibrant cities like Rio de Janeiro and São Paulo."
+      },
+      {
+        "id": 11,
+        "name": "Dubai, United Arab Emirates",
+        "image": "https://www.planetware.com/wpimages/2020/03/world-most-visited-cities-dubai-united-arab-emirates.jpg",
+        "description": "A dazzling metropolis of modern architecture and luxury"
+      },
+      {
+        "id": 12,
+        "name": "Singapore",
+        "image": "https://www.planetware.com/wpimages/2020/03/world-most-visited-cities-singapore.jpg",
+        "description": "A vibrant city-state with a perfect blend of culture and innovation.."
+      },
+      {
+        "id": 13,
+        "name": "Rome, Italy",
+        "image": "https://www.planetware.com/wpimages/2020/03/world-most-visited-cities-rome-italy.jpg",
+        "description": "A timeless city with a rich history and iconic landmarks.."
+      },
+      {
+        "id": 14,
+        "name": " Macau, China",
+        "image": "https://www.planetware.com/wpimages/2020/03/world-most-visited-cities-macau-china.jpg",
+        "description": "A glitzy destination known for its dazzling casinos and entertainment."
+      },
+      {
+        "id": 15,
+        "name": "Istanbul, Turkey",
+        "image": "https://www.planetware.com/wpimages/2020/03/world-most-visited-cities-istanbul-turkey.jpg",
+        "description": "A city where East meets West, boasting a rich cultural heritage."
+      },
+      {
+        "id": 16,
+        "name": "Delhi, India",
+        "image": "https://www.planetware.com/wpimages/2020/03/world-most-visited-cities-delhi-india.jpg",
+        "description": "A vibrant metropolis showcasing India's diverse traditions and history.."
+      },
+      {
+        "id": 17,
+        "name": "Antalya, Turkey",
+        "image": "https://www.planetware.com/wpimages/2020/03/world-most-visited-cities-antalya-turkey.jpg",
+        "description": "A picturesque coastal city known for its stunning beaches and history."
+      },
+      {
+        "id": 18,
+        "name": "Porto, Portugal",
+        "image": "https://www.planetware.com/wpimages/2022/02/top-cities-world-to-visit-porto-portugal.jpg",
+        "description": "A charming city with historic architecture and delightful cuisine."
+      },
+      {
+        "id": 19,
+        "name": "Los Angeles, USA",
+        "image": "https://www.planetware.com/wpimages/2022/02/top-cities-world-to-visit-los-angeles-california.jpg",
+        "description": "A sprawling metropolis renowned for its entertainment industry and diversity."
+      },
+      {
+        "id": 20,
+        "name": "Barcelona, Spain",
+        "image": "https://www.planetware.com/wpimages/2022/02/top-cities-world-to-visit-barcelona-spain.jpg",
+        "description": "A vibrant city famous for its architecture, art, and lively atmosphere."
+      },
+      {
+        "id": 21,
+        "name": "Amsterdam, Netherlands",
+        "image": "https://www.planetware.com/wpimages/2022/02/top-cities-world-to-visit-amsterdam-netherlands.jpg",
+        "description": "A picturesque city known for its canals, culture, and tulip-filled landscapes."
+      },
+      {
+        "id": 22,
+        "name": "San Miguel de Allende, Mexico",
+        "image": "https://www.planetware.com/wpimages/2022/02/top-cities-world-to-visit-san-miguel-allende-mexico.jpg",
+        "description": "A charming colonial town celebrated for its art, architecture, and festivals."
+      },
+      {
+        "id": 23,
+        "name": "Cape Town, South Africa",
+        "image": "https://cdn.mappr.co/wp-content/uploads/2022/02/cape-town-south-africa.jpg?w=1024&h=683&scale.option=fill&cw=1024&ch=683&cx=center&cy=center",
+        "description": "A vibrant coastal city with stunning landscapes and diverse culture."
+      },
+      {
+        "id": 24,
+        "name": "Stone Town, Tanzania",
+        "image": "https://cdn.mappr.co/wp-content/uploads/2022/08/stone-town-zanzibar-.jpeg?w=576&h=384&scale.option=fill&cw=576&ch=384&cx=center&cy=center",
+        "description": "An enchanting historical town with a unique blend of cultures."
+      },
+      {
+        "id": 25,
+        "name": "Cairo, Egypt",
+        "image": "https://cdn.mappr.co/wp-content/uploads/2022/02/cairo-egypt.jpg?w=576&h=384&scale.option=fill&cw=576&ch=384&cx=center&cy=center",
+        "description": "An ancient city steeped in history and home to iconic landmarks."
+      },
+      {
+        "id": 26,
+        "name": "Johannesburg, South Africa",
+        "image": "https://cdn.mappr.co/wp-content/uploads/2022/02/johannesburg-south-africa.jpg?w=576&h=384&scale.option=fill&cw=576&ch=384&cx=center&cy=center",
+        "description": "A bustling city known for its vibrant urban culture and art scene."
+      },
+      {
+        "id": 27,
+        "name": "Essaouira, Morocco ",
+        "image": "https://cdn.mappr.co/wp-content/uploads/2022/03/essaouira-maorocco.jpg?w=576&h=384&scale.option=fill&cw=576&ch=384&cx=center&cy=center",
+        "description": "A charming coastal town with a relaxed atmosphere and historic charm."
+      },
+      {
+        "id": 28,
+        "name": "Jinja Town, Uganda",
+        "image": "https://cdn.mappr.co/wp-content/uploads/2022/03/jinja-uganda.jpg?w=576&h=384&scale.option=fill&cw=576&ch=384&cx=center&cy=center",
+        "description": "A riverside town offering thrilling adventures and natural beauty."
+      },
+      {
+        "id": 29,
+        "name": "Chefchaouen, Morocco",
+        "image": "https://cdn.mappr.co/wp-content/uploads/2022/03/chefchaouen-morocco.jpg?w=576&h=384&scale.option=fill&cw=576&ch=384&cx=center&cy=center",
+        "description": "A picturesque blue-painted town nestled in the Rif Mountains."
+      },
+      {
+        "id": 30,
+        "name": "Mumbai,India ",
+        "image": "https://govisity.com/wp-content/uploads/2018/09/Mumbai__India__Most_Visited_Cities_in_the_World-720x496.jpg",
+        "description": "A bustling metropolis known for its Bollywood glamour and diverse culture."
+      },
+      {
+        "id": 31,
+        "name": "Phuket, Thailand",
+        "image": "https://govisity.com/wp-content/uploads/2018/09/Phuket__Thailand__Most_Visited_Cities_in_the_World-720x500.jpg",
+        "description": "A tropical paradise offering stunning beaches and vibrant nightlife."
+      },
+      {
+        "id": 32,
+        "name": "Taipei, Taiwan",
+        "image": "https://govisity.com/wp-content/uploads/2018/09/Taipei__Taiwan__Most_Visited_Cities_in_the_World-720x540.jpg",
+        "description": "A modern city known for its cultural landmarks and bustling street markets."
+      },
+      {
+        "id": 33,
+        "name": "Pattaya, Thailand",
+        "image": "https://govisity.com/wp-content/uploads/2018/09/Pattaya__Thailand__Most_Visited_Cities_in_the_World-720x479.jpg",
+        "description": "A popular beach resort city offering entertainment and leisure activities."
+      },
+      {
+        "id": 34,
+        "name": "Denpasar, Indonesia",
+        "image": "https://govisity.com/wp-content/uploads/2018/09/Denpasar-Bali-Indonesia-728x501.jpg",
+        "description": "A gateway to Bali's beautiful beaches and cultural experiences."
+      },
+      {
+        "id": 35,
+        "name": "Miami, Florida",
+        "image": "https://govisity.com/wp-content/uploads/2018/09/Miami__Florida__Most_Visited_Cities_in_the_World-720x540.jpg",
+        "description": "A vibrant coastal city known for its art, culture, and lively atmosphere"
+      },
+      {
+        "id": 36,
+        "name": "Namib Desert, Namibia",
+        "image": "https://media.cntraveler.com/photos/5cb63a2d7b743ba94b60a8e0/master/w_960%2Cc_limit/Namib-Desert%2C-Namibia_GettyImages-139814922.jpg",
+        "description": "An otherworldly desert landscape with mesmerizing sand dunes."
+      },
+      {
+        "id": 37,
+        "name": "Galápagos Islands, Ecuador",
+        "image": "https://media.cntraveler.com/photos/5e45b1e6927f820008dcc711/master/w_960%2Cc_limit/Galapagos%2520GettyImages-470028282.jpg",
+        "description": "A unique archipelago teeming with diverse wildlife and natural beauty."
+      },
+      {
+        "id": 38,
+        "name": "The Great Barrier Reef, Australia",
+        "image": "https://media.cntraveler.com/photos/5e45b1d6a007f90008d5bb0d/master/w_960%2Cc_limit/Great%2520Barrier%2520Reef%2520GettyImages-157400772.jpg",
+        "description": "An underwater wonderland and the world's largest coral reef system."
+      },
+      {
+        "id": 39,
+        "name": "The Amazon",
+        "image": "https://media.cntraveler.com/photos/5cf8303b6640e7d3bee1d186/master/w_960%2Cc_limit/Amazon_manaus_GettyImages-935746242.jpg",
+        "description": "A vast rainforest with incredible biodiversity and untouched nature."
+      },
+      {
+        "id": 40,
+        "name": "Zakynthos, Greece",
+        "image": "https://media.cntraveler.com/photos/5cb63a516b5c4d33c25ec158/master/w_960%2Cc_limit/Zakynthos-Greece_GettyImages-626977447.jpg",
+        "description": "An idyllic Greek island known for its crystal-clear waters and beaches."
+      }
+
+    ]
+  }
+  
+  
+   
