@@ -49,7 +49,6 @@ const DestinationsList = () => {
                 </p>
               </div>
             )}
-            <button>Add to Bucket List</button>
           </li>
         ))}
       </ul>
