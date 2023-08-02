@@ -1,4 +1,3 @@
-/// DestinationsList.js
 import React, { useState, useEffect } from "react";
 
 const DestinationsList = () => {
@@ -19,6 +18,19 @@ const DestinationsList = () => {
             <img src={destination.image} alt={destination.name} />
             <h2>{destination.name}</h2>
             <p>{destination.description}</p>
+            <h3>Popular Attractions:</h3>
+            <ul>
+              {destination.popularAttractions &&
+                destination.popularAttractions.map((attraction, index) => (
+                  <li key={index}>{attraction}</li>
+                ))}
+            </ul>
+            <p>
+              <strong>Best Time to Visit:</strong> {destination.bestTimeToVisit}
+            </p>
+            <p>
+              <strong>Safety Tips:</strong> {destination.safetyTips}
+            </p>
             <button>Add to Bucket List</button>
           </li>
         ))}
