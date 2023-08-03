@@ -34,7 +34,11 @@ To install this application, run the following command on your terminal:
 2. Navigate to the project directory by typing: 
    "cd bucket-list-app".
 3. Update the dependencies by running: "npm install" on your   terminal.
-4. Run the application by running: "npm start" on your terminal.
+4. Update the react library by running: "npm install react-router-dom" on your terminal.
+5. Update the react library by running: "npm install react-autosuggest" on your terminal.
+5. Start the json-server by running: "json-server --watch db.json --port 5000".
+6. Run the application by running: "npm start" on your terminal.
+
 
 # Collaborators
 The following individuals are the collaborators of this project:
