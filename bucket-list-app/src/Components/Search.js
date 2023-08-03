@@ -1,3 +1,4 @@
+// Search.js
 import React, { useState } from 'react';
 import Autosuggest from 'react-autosuggest';
 import { Link } from 'react-router-dom';
@@ -9,9 +10,11 @@ const Search = ({ destinations }) => {
   // Teach Autosuggest how to calculate suggestions for any given input value.
   const getSuggestions = (inputValue) => {
     const inputValueLower = inputValue.toLowerCase();
-    return destinations.filter(
-      (destination) => destination.name.toLowerCase().includes(inputValueLower)
-    );
+    return destinations
+      ? destinations.filter((destination) =>
+          destination.name.toLowerCase().includes(inputValueLower)
+        )
+      : [];
   };
 
   // Use your imagination to render suggestions.
