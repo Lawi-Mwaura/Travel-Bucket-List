@@ -1,54 +1,57 @@
-import React, { useState, useEffect } from "react";
+// import React, { useState, useEffect } from "react";
+// import { Link } from "react-router-dom";
 
-const BucketList = () => {
-  const [bucketList, setBucketList] = useState([]);
-  const [loading, setLoading] = useState(true);
+// const BucketList = () => {
+//   const [bucketList, setBucketList] = useState([]);
 
-  useEffect(() => {
-    fetch("http://localhost:5000/destinations")
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        return response.json();
-      })
-      .then((data) => {
-        setBucketList(data);
-        setLoading(false);
-      })
-      .catch((error) => {
-        console.error("Error fetching bucket list:", error);
-        setLoading(false);
-      });
-  }, []);
+//   useEffect(() => {
+//     // Fetch the user's bucket list from the json-server
+//     fetch("http://localhost:5000/bucketlist")
+//       .then((response) => response.json())
+//       .then((data) => setBucketList(data));
+//   }, []);
 
-  const handleViewDetails = (destinationId) => {
-    // Implement your logic to view the details of the selected destination
-    console.log("View details of destination with ID:", destinationId);
-  };
+//   return (
+//     <div>
+//       <h2>Bucket List</h2>
+//       {bucketList.length > 0 ? (
+//         <ul>
+//           {bucketList.map((destination) => (
+//             <li key={destination.id}>
+//               <Link to={`/destination/${destination.id}`}>
+//                 {destination.name}
+//               </Link>
+//             </li>
+//           ))}
+//         </ul>
+//       ) : (
+//         <p>Your bucket list is empty.</p>
+//       )}
+//     </div>
+//   );
+// };
 
-  if (loading) {
-    return <p>Loading...</p>;
-  }
+// export default BucketList;
 
+import React from "react";
+import { Link } from "react-router-dom";
+
+const BucketList = ({ bucketList }) => {
   return (
-    <div className="sidebar">
-      <h2>My Travel Bucket List</h2>
-      {bucketList.length === 0 ? (
-        <p>Your bucket list is empty. Start adding destinations!</p>
-      ) : (
+    <div>
+      <h2>Bucket List</h2>
+      {bucketList.length > 0 ? (
         <ul>
           {bucketList.map((destination) => (
             <li key={destination.id}>
-              <img src={destination.image} alt={destination.name} />
-              <h3>{destination.location}</h3>
-              <p>{destination.description}</p>
-              <button onClick={() => handleViewDetails(destination.id)}>
-                add bucketList
-              </button>
+              <Link to={`/destination/${destination.id}`}>
+                {destination.name}
+              </Link>
             </li>
           ))}
         </ul>
+      ) : (
+        <p>Your bucket list is empty.</p>
       )}
     </div>
   );
