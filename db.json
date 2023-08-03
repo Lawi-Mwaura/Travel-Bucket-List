@@ -1,0 +1,367 @@
+
+{
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Paris",
+      "image": "https://www.planetware.com/wpimages/2020/03/world-most-visited-cities-paris-france.jpg",
+      "description": "The city of love and lights.",
+      "popularAttractions": ["Eiffel Tower", "Louvre Museum", "Notre-Dame Cathedral"],
+      "bestTimeToVisit": "Spring and Fall",
+      "safetyTips": "Beware of pickpockets in crowded tourist areas."
+    },
+    {
+      "id": 2,
+      "name": "Tokyo",
+      "image": "https://source.unsplash.com/featured/?tokyo",
+      "description": "A bustling metropolis with rich culture.",
+      "popularAttractions": ["Tokyo Tower", "Senso-ji Temple", "Shinjuku Gyoen Park"],
+      "bestTimeToVisit": "Spring (March to May) and Autumn (September to November)",
+      "safetyTips": "Observe subway etiquette and avoid loud conversations in public places."
+    },
+    {
+      "id": 3,
+      "name": "New York City",
+      "image": "https://www.planetware.com/wpimages/2020/03/world-most-visited-cities-new-york-city.jpg",
+      "description": "The city that never sleeps.",
+      "popularAttractions": ["Statue of Liberty", "Central Park", "Times Square"],
+      "bestTimeToVisit": "Spring and Fall",
+      "safetyTips": "Stay aware of your surroundings and keep belongings secure in crowded areas."
+    },
+    {
+      "id": 4,
+      "name": "Kerry, Ireland",
+      "image": "https://imageio.forbes.com/specials-images/dam/imageserve/1166259909/960x0.jpg?format=jpg&width=960",
+      "description": "Kerry's mountains, lakes, and coasts are postcard-perfect.",
+      "popularAttractions": ["Ring of Kerry", "Killarney National Park", "Dingle Peninsula"],
+      "bestTimeToVisit": "Spring and Summer",
+      "safetyTips": "Be cautious while hiking or exploring natural areas due to changing weather conditions."
+    },
+    {
+      "id": 5,
+      "name": "Beijing",
+      "image": "https://www.planetware.com/wpimages/2022/02/top-cities-world-to-visit-beijing-china-forbidden-palace.jpg",
+      "description": "A blend of ancient history and modern marvels.",
+      "popularAttractions": ["Forbidden City", "Great Wall of China", "Temple of Heaven"],
+      "bestTimeToVisit": "Spring and Autumn",
+      "safetyTips": "Watch out for air pollution, especially on days with poor air quality."
+    },
+    {
+      "id": 6,
+      "name": "Orlando",
+      "image": "https://www.usnews.com/object/image/00000188-7370-d512-a3af-f77c646a0001/gettyimages-1368286105.jpg?update-time=1685563968539&size=responsive640",
+      "description": "A magical destination for all ages.",
+      "popularAttractions": ["Walt Disney World", "Universal Studios", "SeaWorld"],
+      "bestTimeToVisit": "Spring and Autumn",
+      "safetyTips": "Stay hydrated and wear sunscreen when visiting theme parks under the Florida sun."
+    },
+    {
+      "id": 7,
+      "name": "Shanghai",
+      "image": "https://cdn.britannica.com/12/123312-050-FC70DB8C/Nanjing-Road-Shanghai-China.jpg",
+      "description": "A vibrant city at the forefront of China's growth.",
+      "popularAttractions": ["The Bund", "Yu Garden", "Shanghai Tower"],
+      "bestTimeToVisit": "Spring and Autumn",
+      "safetyTips": "Be cautious of traffic and follow road rules when crossing streets."
+    },
+    {
+      "id": 8,
+      "name": "Las Vegas",
+      "image": "https://content.r9cdn.net/rimg/dimg/0a/9e/073516d2-city-35107-1656d23229c.jpg?crop=true&width=1366&height=768&xhint=2420&yhint=1089",
+      "description": "The entertainment capital of the world.",
+      "popularAttractions": ["The Strip", "Fremont Street Experience", "Bellagio Fountains"],
+      "bestTimeToVisit": "Spring and Autumn",
+      "safetyTips": "Set a budget for gambling and avoid overindulgence in alcohol."
+    },
+    {
+      "id": 9,
+      "name": "London",
+      "image": "https://www.planetware.com/wpimages/2020/03/world-most-visited-cities-london-england.jpg",
+      "description": "The city that never sleeps.",
+      "popularAttractions": ["Big Ben", "Tower of London", "British Museum"],
+      "bestTimeToVisit": "Spring and Summer",
+      "safetyTips": "Mind the gap when using the London Underground, and be cautious in busy tourist areas."
+    },
+    {
+      "id": 10,
+      "name": "Brazil",
+      "image": "https://i.insider.com/5d3776e836e03c01ae25c453?width=700&format=jpeg&auto=webp",
+      "description": "Known for its diverse culture, beautiful landscapes, and vibrant cities like Rio de Janeiro and São Paulo.",
+      "popularAttractions": ["Christ the Redeemer", "Iguazu Falls", "Copacabana Beach"],
+      "bestTimeToVisit": "Spring and Autumn",
+      "safetyTips": "Exercise caution in certain areas known for petty crime, and be aware of local customs and norms."
+    },
+    {
+      "id": 11,
+      "name": "Dubai, United Arab Emirates",
+      "image": "https://www.planetware.com/wpimages/2020/03/world-most-visited-cities-dubai-united-arab-emirates.jpg",
+      "description": "A dazzling metropolis of modern architecture and luxury",
+      "popularAttractions": ["Burj Khalifa", "Palm Jumeirah", "Dubai Mall"],
+      "bestTimeToVisit": "Winter (November to April)",
+      "safetyTips": "Respect local customs and " 
+    },
+    {
+      "id": 12,
+      "name": "Singapore",
+      "image": "https://www.planetware.com/wpimages/2020/03/world-most-visited-cities-singapore.jpg",
+      "description": "A vibrant city-state with a perfect blend of culture and innovation.",
+      "popularAttractions": ["Gardens by the Bay", "Marina Bay Sands", "Sentosa Island"],
+      "bestTimeToVisit": "Summer (June to August)",
+      "safetyTips": "Strictly follow littering and chewing gum laws to avoid fines."
+    },
+    {
+      "id": 13,
+      "name": "Rome, Italy",
+      "image": "https://www.planetware.com/wpimages/2020/03/world-most-visited-cities-rome-italy.jpg",
+      "description": "A timeless city with a rich history and iconic landmarks.",
+      "popularAttractions": ["Colosseum", "Vatican City", "Trevi Fountain"],
+      "bestTimeToVisit": "Spring and Autumn",
+      "safetyTips": "Beware of pickpockets in crowded tourist areas, and respect local customs in religious sites."
+    },
+    {
+      "id": 14,
+      "name": "Macau, China",
+      "image": "https://www.planetware.com/wpimages/2020/03/world-most-visited-cities-macau-china.jpg",
+      "description": "A glitzy destination known for its dazzling casinos and entertainment.",
+      "popularAttractions": ["Ruins of St. Paul's", "Venetian Macau", "A-Ma Temple"],
+      "bestTimeToVisit": "Autumn (September to December)",
+      "safetyTips": "Gambling responsibly and be aware of certain areas with higher crime rates."
+    },
+    {
+      "id": 15,
+      "name": "Istanbul, Turkey",
+      "image": "https://www.planetware.com/wpimages/2020/03/world-most-visited-cities-istanbul-turkey.jpg",
+      "description": "A city where East meets West, boasting a rich cultural heritage.",
+      "popularAttractions": ["Hagia Sophia", "Blue Mosque", "Topkapi Palace"],
+      "bestTimeToVisit": "Spring and Autumn",
+      "safetyTips": "Be cautious of street vendors and hagglers in tourist areas."
+    },
+    {
+      "id": 16,
+      "name": "Delhi, India",
+      "image": "https://www.planetware.com/wpimages/2020/03/world-most-visited-cities-delhi-india.jpg",
+      "description": "A vibrant metropolis showcasing India's diverse traditions and history.",
+      "popularAttractions": ["Red Fort", "India Gate", "Qutub Minar"],
+      "bestTimeToVisit": "Winter (November to February)",
+      "safetyTips": "Beware of traffic and follow road rules when crossing streets. Drink bottled water."
+    },
+    {
+      "id": 17,
+      "name": "Antalya, Turkey",
+      "image": "https://www.planetware.com/wpimages/2020/03/world-most-visited-cities-antalya-turkey.jpg",
+      "description": "A picturesque coastal city known for its stunning beaches and history.",
+      "popularAttractions": ["Kaleici", "Antalya Museum", "Duden Waterfalls"],
+      "bestTimeToVisit": "Spring and Autumn",
+      "safetyTips": "Be cautious while swimming in the sea and follow lifeguards' instructions."
+    },
+    {
+      "id": 18,
+      "name": "Porto, Portugal",
+      "image": "https://www.planetware.com/wpimages/2022/02/top-cities-world-to-visit-porto-portugal.jpg",
+      "description": "A charming city with historic architecture and delightful cuisine.",
+      "popularAttractions": ["Ribeira District", "Clerigos Tower", "Livraria Lello"],
+      "bestTimeToVisit": "Spring and Autumn",
+      "safetyTips": "Be mindful of your belongings, especially in crowded tourist areas."
+    },
+    {
+      "id": 19,
+      "name": "Los Angeles, USA",
+      "image": "https://www.planetware.com/wpimages/2022/02/top-cities-world-to-visit-los-angeles-california.jpg",
+      "description": "A sprawling metropolis renowned for its entertainment industry and diversity.",
+      "popularAttractions": ["Hollywood Walk of Fame", "Santa Monica Pier", "Griffith Observatory"],
+      "bestTimeToVisit": "Spring and Autumn",
+      "safetyTips": "Use sunscreen and stay hydrated, especially during hot summer months."
+    },
+    {
+      "id": 20,
+      "name": "Barcelona, Spain",
+      "image": "https://www.planetware.com/wpimages/2022/02/top-cities-world-to-visit-barcelona-spain.jpg",
+      "description": "A vibrant city famous for its architecture, art, and lively atmosphere.",
+      "popularAttractions": ["Sagrada Familia", "Park Guell", "La Rambla"],
+      "bestTimeToVisit": "Spring and Autumn",
+      "safetyTips": "Be vigilant against petty theft in crowded tourist spots and public transportation."
+    },
+    {
+      "id": 21,
+      "name": "Amsterdam, Netherlands",
+      "image": "https://www.planetware.com/wpimages/2022/02/top-cities-world-to-visit-amsterdam-netherlands.jpg",
+      "description": "A picturesque city known for its canals, culture, and tulip-filled landscapes.",
+      "popularAttractions": ["Van Gogh Museum", "Anne Frank House", "Rijksmuseum"],
+      "bestTimeToVisit": "Spring and Autumn",
+      "safetyTips": "Stay aware of cyclists and use designated bike lanes when walking near roads."
+    },
+    {
+      "id": 22,
+      "name": "San Miguel de Allende, Mexico",
+      "image": "https://www.planetware.com/wpimages/2022/02/top-cities-world-to-visit-san-miguel-allende-mexico.jpg",
+      "description": "A charming colonial town celebrated for its art, architecture, and festivals.",
+      "popularAttractions": ["Parroquia de San Miguel Arcangel", "El Charco del Ingenio Botanical Garden", "Fabrica La Aurora"],
+      "bestTimeToVisit": "Spring and Autumn",
+      "safetyTips": "Respect local customs and traditions, and be cautious of uneven sidewalks in some areas."
+    },
+    {
+      "id": 23,
+      "name": "Cape Town, South Africa",
+      "image": "https://cdn.mappr.co/wp-content/uploads/2022/02/cape-town-south-africa.jpg?w=1024&h=683&scale.option=fill&cw=1024&ch=683&cx=center&cy=center",
+      "description": "A vibrant coastal city with stunning landscapes and diverse culture.",
+      "popularAttractions": ["Table Mountain", "Robben Island", "Cape of Good Hope"],
+      "bestTimeToVisit": "Spring and Autumn",
+      "safetyTips": "Be cautious of petty theft in tourist areas, and avoid isolated places at night."
+    },
+    {
+      "id": 24,
+      "name": "Stone Town, Tanzania",
+      "image": "https://cdn.mappr.co/wp-content/uploads/2022/08/stone-town-zanzibar-.jpeg?w=576&h=384&scale.option=fill&cw=576&ch=384&cx=center&cy=center",
+      "description": "An enchanting historical town with a unique blend of cultures.",
+      "popularAttractions": ["Forodhani Gardens", "House of Wonders", "Old Fort"],
+      "bestTimeToVisit": "Summer (June to September)",
+      "safetyTips": "Respect local customs and traditions, and be mindful of your belongings in crowded areas."
+    },
+    {
+      "id": 25,
+      "name": "Cairo, Egypt",
+      "image": "https://cdn.mappr.co/wp-content/uploads/2022/02/cairo-egypt.jpg?w=576&h=384&scale.option=fill&cw=576&ch=384&cx=center&cy=center",
+      "description": "An ancient city steeped in history and home to iconic landmarks.",
+      "popularAttractions": ["Pyramids of Giza", "Egyptian Museum", "Khan el-Khalili"],
+      "bestTimeToVisit": "Spring and Autumn",
+      "safetyTips": "Be cautious of street vendors and hagglers, and avoid public demonstrations."
+    },
+    {
+      "id": 26,
+      "name": "Johannesburg, South Africa",
+      "image": "https://cdn.mappr.co/wp-content/uploads/2022/02/johannesburg-south-africa.jpg?w=576&h=384&scale.option=fill&cw=576&ch=384&cx=center&cy=center",
+      "description": "A bustling city known for its vibrant urban culture and art scene.",
+      "popularAttractions": ["Apartheid Museum", "Gold Reef City", "Maboneng Precinct"],
+      "bestTimeToVisit": "Spring and Autumn",
+      "safetyTips": "Stay cautious of pickpockets and avoid displaying expensive belongings in public."
+    },
+    {
+      "id": 27,
+      "name": "Essaouira, Morocco",
+      "image": "https://cdn.mappr.co/wp-content/uploads/2022/03/essaouira-maorocco.jpg?w=576&h=384&scale.option=fill&cw=576&ch=384&cx=center&cy=center",
+      "description": "A charming coastal town with a relaxed atmosphere and historic charm.",
+      "popularAttractions": ["Skala de la Ville", "Essaouira Beach", "Moulay Hassan Square"],
+      "bestTimeToVisit": "Spring and Autumn",
+      "safetyTips": "Be cautious of strong sea currents when swimming, and respect local customs."
+    },
+    {
+      "id": 28,
+      "name": "Jinja Town, Uganda",
+      "image": "https://cdn.mappr.co/wp-content/uploads/2022/03/jinja-uganda.jpg?w=576&h=384&scale.option=fill&cw=576&ch=384&cx=center&cy=center",
+      "description": "A riverside town offering thrilling adventures and natural beauty.",
+      "popularAttractions": ["Source of the Nile", "Bujagali Falls", "Jinja Market"],
+      "bestTimeToVisit": "Dry season (June to August and December to February)",
+      "safetyTips": "Take precautions against malaria and wear protective gear for adventure activities."
+    },
+    {
+      "id": 29,
+      "name": "Chefchaouen, Morocco",
+      "image": "https://cdn.mappr.co/wp-content/uploads/2022/03/chefchaouen-morocco.jpg?w=576&h=384&scale.option=fill&cw=576&ch=384&cx=center&cy=center",
+      "description": "A picturesque blue-painted town nestled in the Rif Mountains.",
+      "popularAttractions": ["Ras El Maa Waterfall", "Outa el Hammam Square", "Spanish Mosque"],
+      "bestTimeToVisit": "Spring and Autumn",
+      "safetyTips": "Respect local customs and refrain from taking photos of locals without permission."
+    },
+    {
+      "id": 30,
+      "name": "Mumbai,India ",
+      "image": "https://govisity.com/wp-content/uploads/2018/09/Mumbai__India__Most_Visited_Cities_in_the_World-720x496.jpg",
+      "description": "A bustling metropolis known for its Bollywood glamour and diverse culture.",
+      "popularAttractions": ["Gateway of India", "Marine Drive", "Chhatrapati Shivaji Maharaj Terminus"],
+      "bestTimeToVisit": "Winter (November to February)",
+      "safetyTips": "Be cautious of pickpockets and crowded public transport, and drink bottled water."
+    },
+    {
+      "id": 31,
+      "name": "Phuket, Thailand",
+      "image": "https://govisity.com/wp-content/uploads/2018/09/Phuket__Thailand__Most_Visited_Cities_in_the_World-720x500.jpg",
+      "description": "A tropical paradise offering stunning beaches and vibrant nightlife.",
+      "popularAttractions": ["Patong Beach", "Phi Phi Islands", "Big Buddha"],
+      "bestTimeToVisit": "Dry season (November to February)",
+      "safetyTips": "Avoid riding on unlicensed or overcrowded taxis, and respect Thai customs."
+    },
+    {
+      "id": 32,
+      "name": "Taipei, Taiwan",
+      "image": "https://govisity.com/wp-content/uploads/2018/09/Taipei__Taiwan__Most_Visited_Cities_in_the_World-720x540.jpg",
+      "description": "A modern city known for its cultural landmarks and bustling street markets.",
+      "popularAttractions": ["Taipei 101", "National Palace Museum", "Longshan Temple"],
+      "bestTimeToVisit": "Autumn (September to November)",
+      "safetyTips": "Be aware of scams targeting tourists, and respect local customs and traditions."
+    },
+    {
+      "id": 33,
+      "name": "Pattaya, Thailand",
+      "image": "https://govisity.com/wp-content/uploads/2018/09/Pattaya__Thailand__Most_Visited_Cities_in_the_World-720x479.jpg",
+      "description": "A popular beach resort city offering entertainment and leisure activities.",
+      "popularAttractions": ["Walking Street", "Nong Nooch Tropical Garden", "Sanctuary of Truth"],
+      "bestTimeToVisit": "Dry season (November to February)",
+      "safetyTips": "Be cautious of nightlife areas and use official taxis for transportation."
+    },
+    {
+      "id": 34,
+      "name": "Denpasar, Indonesia",
+      "image": "https://govisity.com/wp-content/uploads/2018/09/Denpasar-Bali-Indonesia-728x501.jpg",
+      "description": "A gateway to Bali's beautiful beaches and cultural experiences.",
+      "popularAttractions": ["Pura Jagatnatha", "Bajra Sandhi Monument", "Le Mayeur Museum"],
+      "bestTimeToVisit": "Dry season (April to October)",
+      "safetyTips": "Be cautious of traffic and use sunscreen during hot days."
+    },
+    {
+      "id": 35,
+      "name": "Miami, Florida",
+      "image": "https://govisity.com/wp-content/uploads/2018/09/Miami__Florida__Most_Visited_Cities_in_the_World-720x540.jpg",
+      "description": "A vibrant coastal city known for its art, culture, and lively atmosphere",
+      "popularAttractions": ["South Beach", "Art Deco Historic District", "Wynwood Walls"],
+      "bestTimeToVisit": "Winter (December to April)",
+      "safetyTips": "Stay cautious in crowded tourist areas and follow beach safety guidelines."
+    },
+    {
+      "id": 36,
+      "name": "Namib Desert, Namibia",
+      "image": "https://media.cntraveler.com/photos/5cb63a2d7b743ba94b60a8e0/master/w_960%2Cc_limit/Namib-Desert%2C-Namibia_GettyImages-139814922.jpg",
+      "description": "An otherworldly desert landscape with mesmerizing sand dunes.",
+      "popularAttractions": ["Dune 45", "Deadvlei", "Sossusvlei"],
+      "bestTimeToVisit": "Autumn (April to June)",
+      "safetyTips": "Stay hydrated and bring sufficient water when exploring the desert."
+    },
+    {
+      "id": 37,
+      "name": "Galápagos Islands, Ecuador",
+      "image": "https://media.cntraveler.com/photos/5e45b1e6927f820008dcc711/master/w_960%2Cc_limit/Galapagos%2520GettyImages-470028282.jpg",
+      "description": "A unique archipelago teeming with diverse wildlife and natural beauty.",
+      "popularAttractions": ["Charles Darwin Research Station", "Tortuga Bay", "Kicker Rock"],
+      "bestTimeToVisit": "Dry season (June to December)",
+      "safetyTips": "Respect the wildlife and follow the guidance of naturalist guides."
+    },
+    {
+      "id": 38,
+      "name": "The Great Barrier Reef, Australia",
+      "image": "https://media.cntraveler.com/photos/5e45b1d6a007f90008d5bb0d/master/w_960%2Cc_limit/Great%2520Barrier%2520Reef%2520GettyImages-157400772.jpg",
+      "description": "An underwater wonderland and the world's largest coral reef system.",
+      "popularAttractions": ["Whitsunday Islands", "Heart Reef", "Outer Barrier Reef"],
+      "bestTimeToVisit": "Dry season (June to October)",
+      "safetyTips": "Use reef-safe sunscreen and follow guidelines for protecting the marine environment."
+    },
+    {
+      "id": 39,
+      "name": "The Amazon",
+      "image": "https://media.cntraveler.com/photos/5cf8303b6640e7d3bee1d186/master/w_960%2Cc_limit/Amazon_manaus_GettyImages-935746242.jpg",
+      "description": "A vast rainforest with incredible biodiversity and untouched nature.",
+      "popularAttractions": ["Amazon River", "Manaus Opera House", "Anavilhanas Islands"],
+      "bestTimeToVisit": "Dry season (June to November)",
+      "safetyTips": "Follow guidelines for wildlife encounters and use insect repellent for protection."
+    },
+    {
+      "id": 40,
+      "name": "Zakynthos, Greece",
+      "image": "https://media.cntraveler.com/photos/5cb63a516b5c4d33c25ec158/master/w_960%2Cc_limit/Zakynthos-Greece_GettyImages-626977447.jpg",
+      "description": "An idyllic Greek island known for its crystal-clear waters and beaches.",
+      "popularAttractions": ["Shipwreck Beach (Navagio)", "Blue Caves", "Laganas Beach"],
+      "bestTimeToVisit": "Spring and Autumn",
+      "safetyTips": "Be mindful of sea conditions and protect the local marine environment."
+    }
+  ]
+}
+
+   
