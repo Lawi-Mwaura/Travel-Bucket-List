@@ -14,12 +14,6 @@ const Search = ({ destinations }) => {
     );
   };
 
-  // When suggestion is clicked, update the input and clear the suggestions.
-  const onSuggestionSelected = (event, { suggestion }) => {
-    setValue(suggestion.name);
-    setSuggestions([]);
-  };
-
   // Use your imagination to render suggestions.
   const renderSuggestion = (suggestion) => (
     <Link to={`/destination/${suggestion.id}`}>
@@ -40,9 +34,12 @@ const Search = ({ destinations }) => {
   // Autosuggest will pass through all these props to the input element.
   const inputProps = {
     placeholder: 'Search for countries...',
+    type: 'text', // Add the type attribute for proper input rendering.
     value,
     onChange: (event, { newValue }) => {
       setValue(newValue);
+      // Update suggestions when input value changes.
+      setSuggestions(getSuggestions(newValue));
     }
   };
 
@@ -54,7 +51,6 @@ const Search = ({ destinations }) => {
       getSuggestionValue={(suggestion) => suggestion.name}
       renderSuggestion={renderSuggestion}
       inputProps={inputProps}
-      onSuggestionSelected={onSuggestionSelected}
     />
   );
 };
