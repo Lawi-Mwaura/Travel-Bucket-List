@@ -1,52 +1,61 @@
 import React, { useState } from 'react';
+import Autosuggest from 'react-autosuggest';
+import { Link } from 'react-router-dom';
 
-const Search = () => {
-  const [searchQuery, setSearchQuery] = useState('');
-  const [results, setResults] = useState([]);
+const Search = ({ destinations }) => {
+  const [value, setValue] = useState('');
+  const [suggestions, setSuggestions] = useState([]);
 
-  const handleSearch = async () => {
-    try {
-      const response = await fetch(`http://localhost:5000/destinations?q=${encodeURIComponent(searchQuery)}`);
-      if (!response.ok) {
-        throw new Error('Failed to fetch destinations');
-      }
-      const data = await response.json();
-      setResults(data);
-    } catch (error) {
-      console.error('Error searching destinations:', error);
+  // Teach Autosuggest how to calculate suggestions for any given input value.
+  const getSuggestions = (inputValue) => {
+    const inputValueLower = inputValue.toLowerCase();
+    return destinations.filter(
+      (destination) => destination.name.toLowerCase().includes(inputValueLower)
+    );
+  };
+
+  // When suggestion is clicked, update the input and clear the suggestions.
+  const onSuggestionSelected = (event, { suggestion }) => {
+    setValue(suggestion.name);
+    setSuggestions([]);
+  };
+
+  // Use your imagination to render suggestions.
+  const renderSuggestion = (suggestion) => (
+    <Link to={`/destination/${suggestion.id}`}>
+      {suggestion.name}
+    </Link>
+  );
+
+  // Autosuggest will call this function every time you need to update suggestions.
+  const onSuggestionsFetchRequested = ({ value }) => {
+    setSuggestions(getSuggestions(value));
+  };
+
+  // Autosuggest will call this function every time you need to clear suggestions.
+  const onSuggestionsClearRequested = () => {
+    setSuggestions([]);
+  };
+
+  // Autosuggest will pass through all these props to the input element.
+  const inputProps = {
+    placeholder: 'Search for countries...',
+    value,
+    onChange: (event, { newValue }) => {
+      setValue(newValue);
     }
   };
 
-  const handleInputChange = (e) => {
-    setSearchQuery(e.target.value);
-  };
-
   return (
-    <div>
-      <h2>Search for Travel Destinations</h2>
-      <input
-        type="text"
-        value={searchQuery}
-        onChange={handleInputChange}
-        placeholder="Enter location or keyword"
-      />
-      <button onClick={handleSearch}>Search</button>
-
-      {results.length > 0 && (
-        <div>
-          <h3>Search Results:</h3>
-          <ul>
-            {results.map((destination) => (
-              <li key={destination.id}>
-                <h4>{destination.location}</h4>
-                <p>{destination.description}</p>
-                <img src={destination.image} alt={destination.location} />
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-    </div>
+    <Autosuggest
+      suggestions={suggestions}
+      onSuggestionsFetchRequested={onSuggestionsFetchRequested}
+      onSuggestionsClearRequested={onSuggestionsClearRequested}
+      getSuggestionValue={(suggestion) => suggestion.name}
+      renderSuggestion={renderSuggestion}
+      inputProps={inputProps}
+      onSuggestionSelected={onSuggestionSelected}
+    />
   );
 };
 
