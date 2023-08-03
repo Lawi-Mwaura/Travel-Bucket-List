@@ -1,6 +1,7 @@
+ // DestinationsList.js
 import React, { useState, useEffect } from "react";
 
-const DestinationsList = () => {
+const DestinationsList = ({ onSelectDestination }) => {
   const [destinations, setDestinations] = useState([]);
 
   useEffect(() => {
@@ -11,6 +12,17 @@ const DestinationsList = () => {
 
   return (
     <div>
+      <h2>Travel Destinations</h2>
+      {destinations.map((destination) => (
+        <div key={destination.id}>
+          <img src={destination.image} alt={destination.name} />
+          <h3>{destination.name}</h3>
+          <p>{destination.description}</p>
+          <button onClick={() => onSelectDestination(destination)}>
+            View Details
+          </button>
+        </div>
+      ))}
     </div>
   );
 };

@@ -1,59 +1,23 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
-const DestinationsList = () => {
-  const [destinations, setDestinations] = useState([]);
-  const [showDetails, setShowDetails] = useState({});
-
-
-  const handleImageClick = (destinationId) => {
-    setShowDetails((prevShowDetails) => ({
-      ...prevShowDetails,
-      [destinationId]: !prevShowDetails[destinationId]
-    }));
-  };
-
-  useEffect(() => {
-    fetch("http://localhost:5000/destinations")
-      .then((response) => response.json())
-      .then((data) => setDestinations(data));
-  }, []);
-
+const DestinationDetails = ({ destination, onBackButtonClick }) => {
   return (
     <div>
-      <h1>Travel Bucket List</h1>
+      <h2>{destination.name}</h2>
+      <img src={destination.image} alt={destination.name} />
+      <p>{destination.description}</p>
+      <h3>Popular Attractions</h3>
       <ul>
-      {destinations.map((destination) => (
-          <li key={destination.id}>
-            <img
-              src={destination.image}
-              alt={destination.name}
-              onClick={() => handleImageClick(destination.id)}
-            />
-            <h2>{destination.name}</h2>
-            <p>{destination.description}</p>
-            {showDetails[destination.id] && (
-              <div>
-                <h3>Popular Attractions:</h3>
-                <ul>
-                  {destination.popularAttractions &&
-                    destination.popularAttractions.map((attraction, index) => (
-                      <li key={index}>{attraction}</li>
-                    ))}
-                </ul>
-                <p>
-                  <strong>Best Time to Visit:</strong>{" "}
-                  {destination.bestTimeToVisit}
-                </p>
-                <p>
-                  <strong>Safety Tips:</strong> {destination.safetyTips}
-                </p>
-              </div>
-            )}
-          </li>
+        {destination.popularAttractions.map((attraction) => (
+          <li key={attraction}>{attraction}</li>
         ))}
       </ul>
+      <p>Best Time to Visit: {destination.bestTimeToVisit}</p>
+      <p>Safety Tips: {destination.safetyTips}</p>
+      <button onClick={onBackButtonClick}>Back</button>
     </div>
   );
 };
 
-export default DestinationsList;
+export default DestinationDetails;
+
