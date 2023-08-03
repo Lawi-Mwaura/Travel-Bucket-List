@@ -2,13 +2,12 @@ import React, { useState, useEffect } from "react";
 
 const DestinationsList = () => {
   const [destinations, setDestinations] = useState([]);
-  const [showDetails, setShowDetails] = useState({});
+  const [showDetails, setShowDetails] = useState({}); // Initialize with an empty object
 
-
-  const handleImageClick = (destinationId) => {
+  const handleImageClick = (destination) => {
     setShowDetails((prevShowDetails) => ({
       ...prevShowDetails,
-      [destinationId]: !prevShowDetails[destinationId]
+      [destination.id]: !prevShowDetails[destination.id]
     }));
   };
 
@@ -22,12 +21,12 @@ const DestinationsList = () => {
     <div>
       <h1>Travel Bucket List</h1>
       <ul>
-      {destinations.map((destination) => (
+        {destinations.map((destination) => (
           <li key={destination.id}>
             <img
               src={destination.image}
               alt={destination.name}
-              onClick={() => handleImageClick(destination.id)}
+              onClick={() => handleImageClick(destination)} // Pass the destination object
             />
             <h2>{destination.name}</h2>
             <p>{destination.description}</p>

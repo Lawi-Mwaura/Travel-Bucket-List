@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 const AddDestination = () => {
   const [location, setLocation] = useState('');
   const [description, setDescription] = useState('');
