@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Search from "./Search";
 
 const DestinationsList = ({ onSelectDestination }) => {
   const [destinations, setDestinations] = useState([]);
@@ -12,6 +13,9 @@ const DestinationsList = ({ onSelectDestination }) => {
 
   return (
     <div>
+      <div style={{ marginBottom: "20px" }}>
+        <Search destinations={destinations} /> {/* Search bar with margin */}
+      </div>
       <h2>Travel Destinations</h2>
 
       <div style={{ display: "flex", flexWrap: "wrap" }}>
