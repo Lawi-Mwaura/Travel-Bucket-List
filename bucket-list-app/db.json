@@ -10,15 +10,7 @@
       "bestTimeToVisit": "Spring and Fall",
       "safetyTips": "Beware of pickpockets in crowded tourist areas."
     },
-    {
-      "id": 2,
-      "name": "Tokyo",
-      "image": "https://source.unsplash.com/featured/?tokyo",
-      "description": "A bustling metropolis with rich culture.",
-      "popularAttractions": ["Tokyo Tower", "Senso-ji Temple", "Shinjuku Gyoen Park"],
-      "bestTimeToVisit": "Spring (March to May) and Autumn (September to November)",
-      "safetyTips": "Observe subway etiquette and avoid loud conversations in public places."
-    },
+    
     {
       "id": 3,
       "name": "New York City",
