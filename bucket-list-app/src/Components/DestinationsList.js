@@ -13,9 +13,7 @@ const DestinationsList = ({ onSelectDestination }) => {
 
   return (
     <div>
-      <div style={{ marginBottom: "20px" }}>
-        <Search destinations={destinations} /> {/* Search bar with margin */}
-      </div>
+      <Search destinations={destinations} /> {/* Search bar added here */}
       <h2>Travel Destinations</h2>
 
       <div style={{ display: "flex", flexWrap: "wrap" }}>
@@ -25,7 +23,11 @@ const DestinationsList = ({ onSelectDestination }) => {
             className="card"
             style={{ width: "18rem", margin: "10px", position: "relative" }}
           >
-            <img src={destination.image} className="card-img-top" alt={destination.name} />
+            <img
+              src={destination.image}
+              className="card-img-top"
+              alt={destination.name}
+            />
             <div className="card-body">
               <h5 className="card-title">{destination.name}</h5>
               <p className="card-text">{destination.description}</p>
