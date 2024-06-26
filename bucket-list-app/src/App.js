@@ -1,10 +1,12 @@
 // export default App;
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import DestinationsList from "./Components/DestinationsList";
 import DestinationDetails from "./Components/DestinationDetails";
 import AddDestination from "./Components/AddDestination";
 import BucketList from "./Components/BucketList";
+import React from "react";
+
 
 const App = () => {
   const [destinations, setDestinations] = useState([]);

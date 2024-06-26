@@ -4,9 +4,11 @@ const AddDestination = () => {
   const [location, setLocation] = useState('');
   const [description, setDescription] = useState('');
   const [image, setImage] = useState('');
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
     try {
       const newDestination = {
         location,
@@ -33,12 +35,13 @@ const AddDestination = () => {
       setImage('');
     } catch (error) {
       console.error('Error adding destination:', error);
+    } finally {
+      setLoading(false);
     }
   };
 
   return (
     <div className="container">
-    <div>
       <h2>Add Your Dream Travel Destination</h2>
       <form onSubmit={handleSubmit}>
         <div>
@@ -67,9 +70,10 @@ const AddDestination = () => {
             required
           />
         </div>
-        <button type="submit">Add Destination</button>
+        <button type="submit" disabled={loading}>
+          {loading ? 'Adding...' : 'Add Destination'}
+        </button>
       </form>
-    </div>
     </div>
   );
 };

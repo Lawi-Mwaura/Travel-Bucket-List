@@ -13,7 +13,7 @@ const DestinationDetails = ({ destinations, onBackButtonClick, onAddToBucketList
   };
 
   const handleAddToBucketList = () => {
-    onAddToBucketList(selectedDestination); // Call the onAddToBucketList function to add the destination to the bucket list
+    onAddToBucketList(selectedDestination);
   };
 
   return (
